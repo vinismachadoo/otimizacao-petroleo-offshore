@@ -49,7 +49,7 @@ You may download the data from this sources:
 
 First, regarding the basis in production [CAMPOS_EM_PRODUCAO](http://hmlapp5.anp.gov.br/geoserver/oracleworskspace/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=oracleworskspace:CAMPOS_PRODUCAO_SIRGAS&outputFormat=JSON)
 
-[MUNICIPIOS_RJ] (https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2019/UFs/RJ/rj_municipios.zip)
+[MUNICIPIOS_RJ](https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2019/UFs/RJ/rj_municipios.zip)
 
 Finally, concerning the [UEPS_OPERACAO](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/lpo/dados-abertos-ueps-operacao-1.csv)
 
@@ -58,7 +58,7 @@ Finally, concerning the [UEPS_OPERACAO](https://www.gov.br/anp/pt-br/centrais-de
 
 ## Credits
 
-All credits go to [Vinicius Sanches] (https://github.com/vinismachadoo)
+All credits go to [Vinicius Sanches](https://github.com/vinismachadoo)
  
 
 
