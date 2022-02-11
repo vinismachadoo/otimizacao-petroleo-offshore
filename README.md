@@ -5,7 +5,7 @@ Simple optimization example of assigning offshore platforms to airports at Campo
 
 The main objective of this repository is to develop a simple optimization example of **assigning offshore platforms to airports** at  *Campos Basin* regarding the demand for staff on oil rigs. On a daily basis, workers and equipment have to go back and forth to these offshore platforms. Companies want to minimize the cost associated to logistics by optimally choosing :
 
-The airport that will service each offshore platform
+- The airport that will service each offshore platform
 - The size of the fleet of vehicles to be made available at each location
 - The number of trips made by each vehicle to assure the demand for supplies of each platform
 
@@ -34,25 +34,24 @@ The file [producao_bacia_campos.ipynb](https://github.com/piagaarcia/otimizacao-
 
 The following Python packages are used in this notebook.
 
-- Pandas
-- Geopandas
-- Matplotlib
-- Seaborn
-- Numpy
-- Acos, Cos, Sin from Math
-- LpProblem, LpVariable, LpMinimize, LpStatus, LpSum, value
-- Warnings
+- (Pandas)[https://pandas.pydata.org/]
+- (Geopandas)[https://geopandas.org/en/stable/]
+- (Matplotlib)[https://matplotlib.org/]
+- (Seaborn)[https://seaborn.pydata.org/]
+- (Numpy)[https://numpy.org/]
+- (Acos, Cos, Sin from Math)[https://docs.python.org/3/library/math.html]
+- (LpProblem, LpVariable, LpMinimize, LpStatus, LpSum, value)[https://www.coin-or.org/PuLP/pulp.html]
+- (Warnings)[https://docs.python.org/3/library/warnings.html]
 
 ### 4. Data Source
 
 You may download the data from this sources:
 
-First, regarding the basis in production [CAMPOS_EM_PRODUCAO](http://hmlapp5.anp.gov.br/geoserver/oracleworskspace/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=oracleworskspace:CAMPOS_PRODUCAO_SIRGAS&outputFormat=JSON)
+-Regarding the basis in production [CAMPOS_EM_PRODUCAO](http://hmlapp5.anp.gov.br/geoserver/oracleworskspace/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=oracleworskspace:CAMPOS_PRODUCAO_SIRGAS&outputFormat=JSON)
 
-[MUNICIPIOS_RJ](https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2019/UFs/RJ/rj_municipios.zip)
+-Concerning Rio's Counties:[MUNICIPIOS_RJ](https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2019/UFs/RJ/rj_municipios.zip)
 
-Finally, concerning the [UEPS_OPERACAO](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/lpo/dados-abertos-ueps-operacao-1.csv)
-
+-Finally, the listing of petrol platform operating on Rio's coast [UEPS_OPERACAO](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/lpo/dados-abertos-ueps-operacao-1.csv)
 
 
 
