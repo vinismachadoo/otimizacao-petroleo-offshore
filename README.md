@@ -34,14 +34,14 @@ The file [producao_bacia_campos.ipynb](https://github.com/piagaarcia/otimizacao-
 
 The following Python packages are used in this notebook.
 
-- (Pandas)[https://pandas.pydata.org/]
-- (Geopandas)[https://geopandas.org/en/stable/]
-- (Matplotlib)[https://matplotlib.org/]
-- (Seaborn)[https://seaborn.pydata.org/]
-- (Numpy)[https://numpy.org/]
-- (Acos, Cos, Sin from Math)[https://docs.python.org/3/library/math.html]
-- (LpProblem, LpVariable, LpMinimize, LpStatus, LpSum, value)[https://www.coin-or.org/PuLP/pulp.html]
-- (Warnings)[https://docs.python.org/3/library/warnings.html]
+- [Pandas](https://pandas.pydata.org/)
+- [Geopandas](https://geopandas.org/en/stable/)
+- [Matplotlib](https://matplotlib.org/)
+- [Seaborn](https://seaborn.pydata.org/)
+- [Numpy](https://numpy.org/)
+- [Acos, Cos, Sin from Math](https://docs.python.org/3/library/math.html)
+- [LpProblem, LpVariable, LpMinimize, LpStatus, LpSum, value](https://www.coin-or.org/PuLP/pulp.html)
+- [Warnings](https://docs.python.org/3/library/warnings.html)
 
 ### 4. Data Source
 
